@@ -1,0 +1,17 @@
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Infrastructure.deps.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Infrastructure.runtimeconfig.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Infrastructure.runtimeconfig.dev.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Infrastructure.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Infrastructure.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.csprojAssemblyReference.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.AssemblyInfoInputs.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.AssemblyInfo.cs
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.csproj.CoreCompileInputs.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.genruntimeconfig.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_DAL.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Models.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_DAL.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\bin\Debug\netcoreapp3.1\EVO_Models.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Infrastructure\obj\Debug\netcoreapp3.1\EVO_Infrastructure.csproj.CopyComplete

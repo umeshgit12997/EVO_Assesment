@@ -1,0 +1,9 @@
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\bin\Debug\netcoreapp3.1\EVO_BAL.deps.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\bin\Debug\netcoreapp3.1\EVO_BAL.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\bin\Debug\netcoreapp3.1\EVO_BAL.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\obj\Debug\netcoreapp3.1\EVO_BAL.AssemblyInfoInputs.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\obj\Debug\netcoreapp3.1\EVO_BAL.AssemblyInfo.cs
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\obj\Debug\netcoreapp3.1\EVO_BAL.csproj.CoreCompileInputs.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\obj\Debug\netcoreapp3.1\EVO_BAL.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\obj\Debug\netcoreapp3.1\EVO_BAL.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_BAL\obj\Debug\netcoreapp3.1\EVO_BAL.csprojAssemblyReference.cache

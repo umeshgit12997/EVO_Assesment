@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Infrastructure\\EVO_Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj",
+        "projectName": "EVO_DAL",
+        "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj",
+        "packagesPath": "C:\\Users\\upatil\\.nuget\\packages\\",
+        "outputPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\upatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\AllOther\\TFS\\CTSI\\RDS\\LION.Loging.ClientLibrary\\LION.Loging.ClientLibrary\\bin\\Release\\netstandard2.0\\publish": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj": {
+                "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Infrastructure\\EVO_Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Infrastructure\\EVO_Infrastructure.csproj",
+        "projectName": "EVO_Infrastructure",
+        "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Infrastructure\\EVO_Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\upatil\\.nuget\\packages\\",
+        "outputPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\upatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\AllOther\\TFS\\CTSI\\RDS\\LION.Loging.ClientLibrary\\LION.Loging.ClientLibrary\\bin\\Release\\netstandard2.0\\publish": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj": {
+                "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj",
+        "projectName": "EVO_Models",
+        "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj",
+        "packagesPath": "C:\\Users\\upatil\\.nuget\\packages\\",
+        "outputPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\upatil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\AllOther\\TFS\\CTSI\\RDS\\LION.Loging.ClientLibrary\\LION.Loging.ClientLibrary\\bin\\Release\\netstandard2.0\\publish": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

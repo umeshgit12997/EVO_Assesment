@@ -1,0 +1,15 @@
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_DAL.deps.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_DAL.runtimeconfig.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_DAL.runtimeconfig.dev.json
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_DAL.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_DAL.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.AssemblyInfoInputs.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.AssemblyInfo.cs
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.genruntimeconfig.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.csprojAssemblyReference.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_Models.dll
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\bin\Debug\netcoreapp3.1\EVO_Models.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.csproj.CopyComplete
+C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_DAL\obj\Debug\netcoreapp3.1\EVO_DAL.csproj.CoreCompileInputs.cache

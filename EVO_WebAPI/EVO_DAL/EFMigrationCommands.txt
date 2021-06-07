@@ -1,0 +1,18 @@
+﻿//Go to the project base path & open command promt/Go to Package Manager Console
+--Global dotnet EFCore Tools
+dotnet tool install --global dotnet-ef
+--Command to check the DB Schema & connection string used in project
+dotnet ef dbcontext info -s EVO_DAL\EVO_DAL.csproj
+
+--Command to create EF migration
+--dotnet ef migrations add TestMigration --startup-project EVO_WebAPI --project EVO_DAL --context EVODBContext
+dotnet ef migrations add --context <dbcontext-name> --startup-project <Startup-Project Name> --project <Target-Project> 
+
+##example: dotnet ef migrations add initial -s EVO_DAL --project EVO_DAL --context EVODBContextSingleton
+
+--Command to apply EF migration to database
+--dotnet ef database update --context EVODBContext --startup-project EVO_WebAPI --project EVO_DAL <dbcontext-name>
+dotnet ef database update --context <dbcontext-name> --startup-project <Startup-Project Name> --project <Target-Project> 
+
+--Command to undo the migration
+ef migrations remove
