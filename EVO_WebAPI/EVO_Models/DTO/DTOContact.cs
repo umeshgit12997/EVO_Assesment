@@ -1,8 +1,4 @@
-﻿using EVO_Models.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace EVO_Models.DTO
 {

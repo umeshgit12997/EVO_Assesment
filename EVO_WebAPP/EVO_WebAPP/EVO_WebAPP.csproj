@@ -127,9 +127,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Areas\ContactDetails\ContactDetailsAreaRegistration.cs" />
     <Compile Include="Controllers\ContactController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -369,7 +367,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Areas\ContactDetails\Views\web.config" />
     <Content Include="Content\css\ctsi-style.css.map" />
     <Content Include="Content\css\ctsi-style.scss" />
     <Content Include="Content\css\other-style.css.map" />
@@ -397,6 +394,8 @@
     <Content Include="Content\libs\dropify\fonts\dropify.ttf" />
     <Content Include="Content\libs\dropify\fonts\dropify.woff" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\common.js" />
+    <Content Include="Scripts\DocRepository.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -407,6 +406,10 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Nav.js" />
+    <Content Include="Scripts\QSR.js" />
+    <Content Include="Scripts\SRFormbuilder.js" />
+    <Content Include="Scripts\SRFormbuilder.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -418,17 +421,10 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\ContactDetails\Controllers\" />
-    <Folder Include="Areas\ContactDetails\Data\" />
-    <Folder Include="Areas\ContactDetails\Views\Contact\" />
-    <Folder Include="Areas\ContactDetails\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

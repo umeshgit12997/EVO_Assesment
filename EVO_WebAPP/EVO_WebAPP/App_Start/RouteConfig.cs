@@ -16,7 +16,7 @@ namespace EVO_WebAPP
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { /*area= "ContactDetails", */controller = "Contact", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Contact", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -19,7 +19,6 @@ namespace EVO_WebAPI.Areas.Exceptions
         public ExceptionMiddleware(RequestDelegate requestDelegate)
         {
             RequestDelegate = requestDelegate;
-            //ExceptionLogger = exceptionLogger;
         }
 
         public async Task InvokeAsync(HttpContext httpContext)
@@ -42,7 +41,6 @@ namespace EVO_WebAPI.Areas.Exceptions
                 lock (lockObject)
                 {
                     ExceptionTracking ExceptionTracking = new ExceptionTracking((httpContext.Request.Method + httpContext.Request.Path), ex.Message, ex.Source, ex.StackTrace, ex.TargetSite.ToString(), UserId, DateTime.UtcNow);
-                    //ExceptionLogger.LogException(ExceptionTracking);
                 }
                 await HandleExceptionAsync(httpContext, ex);
 

@@ -17,21 +17,7 @@ namespace EVO_WebAPP.Services
         {
             //this.evoService = evoService;
         }
-
-        //public async Task<List<ImportedFiles>> GetImportedEpisodicCareDBFilesList(int orgId)
-        //{
-        //    HttpResponseMessage response = rdsService.GetResponse("episodic_care/audit?orgId=" + orgId);
-        //    HandleRCSClientException.GetHandleRCSClientException((int)response.StatusCode);
-        //    return await response.Content.ReadAsAsync<List<ImportedFiles>>();
-        //}
-
-        //public List<EpisodicCarePatientDataDto> GetSelectedEpisodicCareDBFileDetails(string queryParam)
-        //{
-        //    HttpResponseMessage response = rdsService.GetResponse("episodic_care/" + queryParam);
-        //    HandleRCSClientException.GetHandleRCSClientException((int)response.StatusCode);
-        //    return response.Content.ReadAsAsync<List<EpisodicCarePatientDataDto>>().Result;
-        //}
-
+        
         public async Task<bool> AddContact(Contact contact)
         {
             HttpResponseMessage response = evoService.PostResponse("Contact", contact);            

@@ -6,9 +6,6 @@ using EVO_DAL.Repository;
 using EVO_DAL.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EVO_Infrastructure
 {
