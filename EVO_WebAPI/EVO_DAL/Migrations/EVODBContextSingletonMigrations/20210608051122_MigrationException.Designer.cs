@@ -10,15 +10,15 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EVO_DAL.Migrations.EVODBContextSingletonMigrations
 {
     [DbContext(typeof(EVODBContextSingleton))]
-    [Migration("20210607071444_MigrateException")]
-    partial class MigrateException
+    [Migration("20210608051122_MigrationException")]
+    partial class MigrationException
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
-                .HasAnnotation("ProductVersion", "3.1.7")
+                .HasAnnotation("ProductVersion", "3.1.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("EVO_Models.Entities.ExceptionTracking", b =>

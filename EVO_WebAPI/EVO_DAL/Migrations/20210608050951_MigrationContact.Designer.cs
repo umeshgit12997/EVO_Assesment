@@ -9,22 +9,23 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EVO_DAL.Migrations
 {
     [DbContext(typeof(EVODBContext))]
-    [Migration("20210607071259_MigrateContact")]
-    partial class MigrateContact
+    [Migration("20210608050951_MigrationContact")]
+    partial class MigrationContact
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
-                .HasAnnotation("ProductVersion", "3.1.7")
+                .HasAnnotation("ProductVersion", "3.1.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("EVO_Models.Entities.Contact", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("text");
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("Email")
                         .HasColumnType("text");
@@ -39,7 +40,6 @@ namespace EVO_DAL.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Status")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");

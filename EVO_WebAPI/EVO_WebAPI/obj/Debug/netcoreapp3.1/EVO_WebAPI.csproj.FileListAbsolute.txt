@@ -126,7 +126,6 @@ C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_WebAPI
 C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
-C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\EVO_WebAPI.exe
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\EVO_WebAPI.deps.json
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\EVO_WebAPI.runtimeconfig.json
@@ -270,3 +269,4 @@ C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\obj\Debug\netcoreapp3.1\EVO_WebAPI.csproj.CoreCompileInputs.cache
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\obj\Debug\netcoreapp3.1\EVO_WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace EVO_DAL.Migrations.EVODBContextSingletonMigrations
 {
-    public partial class MigrateException : Migration
+    public partial class MigrationException : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
