@@ -22,3 +22,9 @@ Database:
 * Database will get created automatically with code first approach.
 * Database is postgreSQl DB
 * Database is present on AWS RDS.
+
+Steps To Run the application:
+1. Run the service application 'EVO_WebAPI'
+2. Then run the client application.
+3. No authentication or authorization is availaible.
+
