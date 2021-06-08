@@ -9,14 +9,20 @@ namespace EVO_WebAPP.Respository
 {
     public class EVOServiceRepository
     {
+        private static EVOServiceRepository evoServiceRepository;
         public HttpClient Client { get; set; }
 
-        public EVOServiceRepository()
+        private EVOServiceRepository()
         {
             Client = new HttpClient
             {
                 BaseAddress = new Uri(ConfigurationManager.AppSettings["EVOAPIServiceUrl"].ToString())
             };
+        }
+
+        public static EVOServiceRepository GetInstance()
+        {
+            return evoServiceRepository ?? (evoServiceRepository = new EVOServiceRepository());
         }
 
         public HttpResponseMessage GetResponse(string url)

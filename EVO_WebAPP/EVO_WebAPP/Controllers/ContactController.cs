@@ -7,7 +7,14 @@ namespace EVO_WebAPP.Controllers
 {
     public class ContactController : Controller
     {
-        ContactService contactService = new ContactService();
+        ContactService contactService = ContactService.GetInstance();
+
+        /*readonly ContactService contactService;        
+
+        public ContactController(ContactService contactService)
+        {
+            this.contactService = contactService;
+        }*/
 
         // GET: Contact
         public async Task<ActionResult> Index()

@@ -11,11 +11,19 @@ namespace EVO_WebAPP.Services
 {
     public class ContactService
     {
-        EVOServiceRepository evoService = new EVOServiceRepository();
+        readonly EVOServiceRepository evoService = EVOServiceRepository.GetInstance();      
+        private static ContactService contactService;
 
-        public ContactService(/*EVOServiceRepository evoService*/)
+        /*readonly EVOServiceRepository evoService;
+
+        private ContactService(EVOServiceRepository evoService)
         {
-            //this.evoService = evoService;
+            this.evoService = evoService;
+        }*/
+
+        public static ContactService GetInstance()
+        {
+            return contactService ?? (contactService = new ContactService());
         }
         
         public async Task<bool> AddContact(Contact contact)
