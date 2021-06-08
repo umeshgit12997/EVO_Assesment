@@ -1,19 +1,15 @@
 ﻿using EVO_WebAPP.Models;
 using EVO_WebAPP.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 
-namespace EVO_WebAPP.Areas.ContactDetails.Controllers
+namespace EVO_WebAPP.Controllers
 {
     public class ContactController : Controller
     {
         ContactService contactService = new ContactService();
 
-        // GET: ContactDetails/Contact
+        // GET: Contact
         public async Task<ActionResult> Index()
         {
             var contacts = await contactService.GetContacts();
@@ -21,34 +17,22 @@ namespace EVO_WebAPP.Areas.ContactDetails.Controllers
             return View(contactList);
         }
 
-        // GET: ContactDetails/Contact/Details/5
+        // GET: Contact/Details/5
         public async Task<ActionResult> GetContacts()
         {
             var contacts = await contactService.GetContacts();
             ContactList contactList = new ContactList() { contactList = contacts };
             return View("Index", contactList);
-        }
+        }        
 
-        // GET: ContactDetails/Contact/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ContactDetails/Contact/Create
+        // POST: Contact/Create
         [HttpPost]
         public async Task<ActionResult> AddContact(Contact contact)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                
+                // TODO: Add insert logic here                
                 await contactService.AddContact(contact);
-
-                /*var contacts = await contactService.GetContacts();
-                ContactList contactList = new ContactList() { contactList = contacts };
-                return View(contactList);*/
                 return RedirectToAction("Index");
             }
             catch
@@ -57,13 +41,14 @@ namespace EVO_WebAPP.Areas.ContactDetails.Controllers
             }
         }
 
-        // GET: ContactDetails/Contact/Edit/5
+        /*
+        // GET: Contact/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: ContactDetails/Contact/Edit/5
+        // POST: Contact/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -79,13 +64,13 @@ namespace EVO_WebAPP.Areas.ContactDetails.Controllers
             }
         }
 
-        // GET: ContactDetails/Contact/Delete/5
+        // GET: Contact/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: ContactDetails/Contact/Delete/5
+        // POST: Contact/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
@@ -99,6 +84,6 @@ namespace EVO_WebAPP.Areas.ContactDetails.Controllers
             {
                 return View();
             }
-        }
+        }*/
     }
 }

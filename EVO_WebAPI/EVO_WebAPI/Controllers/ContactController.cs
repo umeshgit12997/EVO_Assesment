@@ -19,14 +19,7 @@ namespace EVO_WebAPI.Controllers
         public ContactController(IContactService contactService)
         {
             this.contactService = contactService;
-        }
-
-        // GET: api/<ContactController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        }        
 
         // GET api/<ContactController>/5
         [HttpGet("contact_list")]
