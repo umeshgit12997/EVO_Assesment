@@ -32,6 +32,13 @@ namespace EVO_WebAPI
         {
             services.AddDataAccessServices(Configuration.GetConnectionString("DBConnectionString"));
             services.AddControllers();
+
+            /*services.AddMvc().AddJsonOptions(options =>
+            {
+                //options.JsonSerializerOptions.
+                options.JsonSerializerOptions.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter();
+                options.JsonSerializerOptions.IgnoreNullValues = true;
+            });*/
         }
 
         /*// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1061,11 +1061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj",
+      "projectUniqueName": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\EVO_Assesment\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj",
       "projectName": "EVO_DAL",
-      "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj",
+      "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\EVO_Assesment\\EVO_WebAPI\\EVO_DAL\\EVO_DAL.csproj",
       "packagesPath": "C:\\Users\\upatil\\.nuget\\packages\\",
-      "outputPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_DAL\\obj\\",
+      "outputPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\EVO_Assesment\\EVO_WebAPI\\EVO_DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1085,8 +1085,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj": {
-              "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\Evolent\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj"
+            "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\EVO_Assesment\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj": {
+              "projectPath": "C:\\AllOther\\Study and Trainings\\InterviewQuestions\\EVO_Assesment\\EVO_WebAPI\\EVO_Models\\EVO_Models.csproj"
             }
           }
         }

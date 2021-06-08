@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EVO_BAL\EVO_BAL.csproj" />
     <ProjectReference Include="..\EVO_DAL\EVO_DAL.csproj" />
   </ItemGroup>
 

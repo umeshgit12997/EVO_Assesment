@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "EVO_Infrastructure/1.0.0": {
         "dependencies": {
+          "EVO_BAL": "1.0.0",
           "EVO_DAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.7",
@@ -295,6 +296,15 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
+      "EVO_BAL/1.0.0": {
+        "dependencies": {
+          "EVO_DAL": "1.0.0",
+          "EVO_Models": "1.0.0"
+        },
+        "runtime": {
+          "EVO_BAL.dll": {}
+        }
+      },
       "EVO_DAL/1.0.0": {
         "dependencies": {
           "EVO_Models": "1.0.0",
@@ -530,6 +540,11 @@
       "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
       "path": "system.runtime.compilerservices.unsafe/4.6.0",
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    },
+    "EVO_BAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "EVO_DAL/1.0.0": {
       "type": "project",

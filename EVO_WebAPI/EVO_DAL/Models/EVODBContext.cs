@@ -13,7 +13,7 @@ namespace EVO_DAL.Models
         {
         }
 
-        public virtual DbSet<Contact> ImportListMasterdata { get; set; }
+        public virtual DbSet<Contact> Contact { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

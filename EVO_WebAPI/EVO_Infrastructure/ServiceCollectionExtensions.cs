@@ -1,5 +1,9 @@
-﻿using EVO_DAL.Models;
+﻿using EVO_BAL;
+using EVO_BAL.Interfaces;
+using EVO_DAL.Models;
 using EVO_DAL.Models.Exception;
+using EVO_DAL.Repository;
+using EVO_DAL.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -23,6 +27,9 @@ namespace EVO_Infrastructure
             var optionsBuilder = new DbContextOptionsBuilder<EVODBContextSingleton>();
             optionsBuilder.UseNpgsql(connectionString);
             services.AddSingleton(new EVODBContextSingleton(optionsBuilder.Options));
+
+            services.AddScoped<IContactRepository, ContactRepository>();
+            services.AddScoped<IContactService, ContactService>();
         }
     }
 }

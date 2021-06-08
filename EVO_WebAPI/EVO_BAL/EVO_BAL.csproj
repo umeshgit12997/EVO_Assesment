@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EVO_DAL\EVO_DAL.csproj" />
+    <ProjectReference Include="..\EVO_Models\EVO_Models.csproj" />
+  </ItemGroup>
+
 </Project>
