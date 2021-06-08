@@ -3,6 +3,7 @@ using EVO_DAL.Repository.Interfaces;
 using EVO_Models.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace EVO_DAL.Repository
@@ -20,6 +21,11 @@ namespace EVO_DAL.Repository
         {
             this.EVODBContext.Contact.Add(contact);
             return this.EVODBContext.SaveChanges();
+        }
+
+        public List<Contact> GetContacts()
+        {
+            return this.EVODBContext.Contact.ToList();
         }
     }
 }

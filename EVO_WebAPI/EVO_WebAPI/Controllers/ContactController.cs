@@ -29,10 +29,10 @@ namespace EVO_WebAPI.Controllers
         }
 
         // GET api/<ContactController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("contact_list")]
+        public List<DTOContact> GetContacts()
         {
-            return "value";
+            return contactService.GetContacts();
         }
 
         // POST api/<ContactController>

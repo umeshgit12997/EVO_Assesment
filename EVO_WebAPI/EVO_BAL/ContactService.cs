@@ -4,6 +4,7 @@ using EVO_Models.DTO;
 using EVO_Models.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace EVO_BAL
@@ -21,6 +22,14 @@ namespace EVO_BAL
             Contact contact = new Contact(DTOContact.FirstName, DTOContact.LastName, DTOContact.Email, DTOContact.PhoneNumber, DTOContact.Status);
            
             return (this.contactRepository.AddContact(contact) > 0);            
+        }
+
+        public List<DTOContact> GetContacts()
+        {
+            return this.contactRepository.GetContacts().Select(item => 
+                    new DTOContact() { FirstName = item.FirstName, LastName = item.LastName, Email = item.Email, PhoneNumber = item.PhoneNumber, Status = item.Status})
+                    .ToList();
+            //throw new NotImplementedException();
         }
     }
 }

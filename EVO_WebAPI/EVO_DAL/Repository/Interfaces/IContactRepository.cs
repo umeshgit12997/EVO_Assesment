@@ -8,5 +8,7 @@ namespace EVO_DAL.Repository.Interfaces
     public interface IContactRepository
     {
         public int AddContact(Contact contact);
+
+        public List<Contact> GetContacts();
     }
 }

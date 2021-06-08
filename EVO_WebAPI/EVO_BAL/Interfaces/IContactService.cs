@@ -8,5 +8,7 @@ namespace EVO_BAL.Interfaces
     public interface IContactService
     {
         public bool AddContact(DTOContact DTOContact);
+
+        public List<DTOContact> GetContacts();
     }
 }

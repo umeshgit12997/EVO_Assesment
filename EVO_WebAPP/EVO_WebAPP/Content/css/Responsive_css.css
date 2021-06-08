@@ -1,0 +1,90 @@
+
+.load-header{
+    display: flex;
+  }
+  .dh-left-3
+  {
+      margin-left:1rem;
+  }
+  .dh-custom-filters
+  {
+      text-align: right;
+      margin-top:1.5rem;
+      padding-top:0.25rem;
+  }
+  @media only screen and (max-width: 500px) {
+    .owb-dashboard .timeline-title {
+      font-size: 14px;
+    }
+    .mobile_tab_view
+    {
+      font-size:13px;
+      padding-left:4px;
+      padding-right:4px;
+    }
+    .col-no-padding
+    {
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .owb-dashboard .owb-track-page .box-header .box-title {
+    font-size: 15px;
+    color: black;
+}
+
+  }
+  @media only screen and (max-width: 768px) {
+    .load-header {
+        display: block;
+    }
+    .dh-custom-filters {
+      text-align: center;
+      margin-top: 0.5rem;
+      padding-top: 0.25rem;
+  }
+  .dh-left-3 {
+    margin-left: 1rem;
+  }
+  .dh-clinic-3
+  {
+    margin-left: 1rem;  
+  }
+  .dashboard .circle.svg-container {
+    height: 200px !important;
+    width: 195px !important;
+    margin: 0 auto;
+}
+  }
+  @media (min-width: 769px) and (max-width: 992px){
+    .load-header {
+      margin-top:42px;
+  }
+  .dh-screen-control
+{
+  margin-left:-210px;
+}
+.dashboard .circle.svg-container {
+    height: 225px !important;
+    width: 220px !important;
+}
+.dashboard .progress .progress-icon {
+    width: 25px;
+    height: 25px;
+    line-height: 20px;
+    top: -12px;
+}
+.custom_md
+{
+  max-width:50% !important;
+  flex:0 0 50% !important;
+}
+.custom_md_100
+{
+    max-width:100% !important;
+    flex:0 0 100% !important;
+}
+    }
+    @media only screen and (min-width: 1280px) {
+        .custom_tpass{margin-left:-20px;}
+      }
+ 

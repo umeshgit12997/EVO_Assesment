@@ -4,7 +4,8 @@ EVO_Assesment
 Service:
 * 'EVO_WebAPI' is a Web API project created in ASP.Net Core.
 * Sample API Calls:
-  To Add Contact:
+
+  1. To Add Contact:
   URL : https://localhost:44392/api/Contact
   JSON: {
 			"FirstName":"Umesh",
@@ -13,7 +14,11 @@ Service:
 			"PhoneNumber":"12345",
 			"Status":"Active"
         }
+		
+  2. To Show List of Contacts:
+  URL : https://localhost:44392/api/Contact/contact_list  
 
 Database:
-* Database is present on AWS RDS.
 * Database will get created automatically with code first approach.
+* Database is postgreSQl DB
+* Database is present on AWS RDS.

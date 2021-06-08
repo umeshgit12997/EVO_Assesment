@@ -1,0 +1,216 @@
+﻿@model EVO_WebAPP.Models.Contact
+
+<script src="~/Content/libs/bootstrap/bootstrap.bundle.js"></script>
+<script src="~/Content/libs/bootstrap/bootstrap.bundle.min.js"></script>
+
+<form id="ImportProcess" autocomplete="off">
+    @*<div class="tab-content pos-rlt">
+        <div class="tab-pane active" id="tab-1">
+            <div class="pl-3 b-b _600">
+                <div class="title-container">
+                    <div class="sub-title-new">
+                        @ViewBag.Title
+                    </div>*@
+    @*<div class="container-fluid" id="RoApm">*@
+    <div class="row">
+        <div class="col-12 col-md-12">
+            <div class="card main-chart-card box-emposed bg-1">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div class="row">
+                            <div class="form-outline">
+                                <label class="form-label" for="form1">First Name: </label>
+                                <input type="text" id="firstName" class="form-control" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="form-outline">
+                                <label class="form-label" for="form1">Last Name: </label>
+                                <input type="text" id="lastName" class="form-control" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="form-outline">
+                                <label class="form-label" for="form1">Email: </label>
+                                <input type="text" id="email" class="form-control" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="form-outline">
+                                <label class="form-label" for="form1">Phone Number: </label>
+                                <input type="text" id="phoneNumber" class="form-control" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="sub-tab-actions">
+                                Status &nbsp;&nbsp;&nbsp;&nbsp;                                
+                                <select id="status" data-style="btn btn-primary">
+                                    <option selected>Active</option>
+                                    <option>InActive</option>
+                                </select>
+                            </div>
+                        </div>
+                         <br />
+                        <div class="row">
+                            <div class="sub-tab-actions">
+                                <input type="button" id="btnAdd" class="btn btn-primary " @*id="btn-show-modal" data-toggle="modal" data-target="#importModal"*@ value="Add Contact">
+                            </div>
+                        </div>
+                        <br />                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*<div class="row">
+        <div class="col-12 col-md-12">
+            <div class="card main-chart-card box-emposed bg-1">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="form-outline">
+                                            <input type="text" id="form1" class="form-control" />
+                                            <label class="form-label" for="form1">Example label</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="col-12 col-md-12">
+            <div class="card main-chart-card box-emposed bg-1">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="form-outline">
+                                            <input type="text" id="form1" class="form-control" />
+                                            <label class="form-label" for="form1">Example label</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>*@
+                                       @*</div>*@
+                                       @*<div class="sub-tab-actions">
+        <input type="button" id="btnAdd" class="btn btn-primary " @*id="btn-show-modal" data-toggle="modal" data-target="#importModal"*@ @*value="Add Contact">
+        </div>*@
+                                       @*</div>
+                    </div>
+                </div>
+            </div>*@
+</form>
+
+    @*<script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>*@
+
+    <script language="JavaScript" type="text/javascript" src="~/Content/js/jquery-3.3.1.js"></script>
+    <script language="JavaScript" type="text/javascript" src="~/Content/js/jquery3.5.0.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="~/Content/libs/jquery/jquery-3.5.1.js"></script>
+
+
+    @*C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPP\EVO_WebAPP\Content\js\jquery-3.3.1.js
+        C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPP\EVO_WebAPP\Content\js\jquery3.5.0.min.js
+        C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPP\EVO_WebAPP\Content\libs\jquery\jquery-3.5.1.js*@
+
+    @*@section Scripts {
+        <script type="text/javascript">*@
+
+    <script>
+
+        $('#btnAdd').click(function () {
+
+            // Checking whether FormData is available in browser
+            if (window.FormData !== undefined) {
+                //$("#loader").show();
+
+                var firstName = $('#firstName').val();
+                var lastName = $('#lastName').val();
+                var email = $('#email').val();
+                var phoneNumber = $('#phoneNumber').val();
+                var status = $('#status').text();
+
+                //var contactData = { "FirstName": "Vikas", "LastName": "Joshi", "Email": "Test@gmail.com", "PhoneNumber": "123456", "Status": "Inactive" }
+                var contactData = { "FirstName": firstName, "LastName": lastName, "Email": email, "PhoneNumber": phoneNumber, "Status": status }
+
+
+                $.ajax({
+                    type: "Post",
+                    url: "/ContactDetails/Contact/AddContact",
+                    data: {
+                        contact: contactData,
+                        //selectedFileId: document.getElementById('selectedFileId').innerText
+                    },
+                    datatype: 'html',
+                    success: function (data) {
+                        toastr.success("Successfully Added...");
+
+                        /*updateChildData(columnData);
+                        $("#loader").hide();*/
+                    }
+                });
+
+                /*$.ajax({
+                    url: '/ContactDetails/ImportProcesses/ImportFiles',
+                    type: "POST",
+                    contentType: false, // Not to set any content header
+                    processData: false, // Not to process data
+                    cache: false,
+                    data: fileData,
+                    success: function (result) {
+                        if (!result.isError) {
+                            toastr.success(result.msg);
+                            GetActiveImportedTypeList(result.fileType);
+                            //$("#loader").hide();
+                        }
+                        else {
+                            toastr.warning(result.msg);
+                            $('#warningMsg').text(result.msg);
+                            //$("#loader").hide();
+                            setTimeout(function () { $('#importModal').modal('show'); }, 300);
+                        }
+                    },
+                    error: function (err) {
+                        toastr.error(err.statusText);
+                        //$("#loader").hide();
+                    },
+                    complete: function (data) {
+                        $('#myForm')[0].reset(); // this will reset the form fields
+                        //$("#loader").hide();
+                    }
+                });*/
+            } else {
+                toastr.warning("File format is not supported.");
+            }
+        });
+
+
+    </script>
+    @*}*@

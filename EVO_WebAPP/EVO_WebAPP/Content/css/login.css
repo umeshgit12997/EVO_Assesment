@@ -1,0 +1,187 @@
+/*@font-face {
+    font-family: "Museo Sans";
+    font-weight: 500;
+    src: url("../fonts/MuseoSans_500.otf");
+}*/
+
+body.ctsi-login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ctsi-login .container-login {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px;
+    background: url(../images/login-bg.png);
+    background-position: center;
+    background-size: 100%;
+    border: 5px solid #fff;
+}
+
+
+    .ctsi-login .container-login:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to right, #0097c1 0%, #00d9e0 100%);
+        opacity: 0.9;
+    }
+
+.ctsi-login .container-login-alt {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px;
+    /* background: url(../images/login-bg.png);
+    background-position: center;
+    background-size: 100%; */
+    border: 5px solid #fff;
+}
+
+    .ctsi-login .container-login-alt:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to right, #0097c1 0%, #00d9e0 100%);
+        opacity: 0.9;
+    }
+
+.left-side {
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    position: relative;
+    text-align: left;
+    padding: 20px 40px 20px 20px;
+}
+
+.ctsi-login span.input-group-text {
+    border: none;
+}
+
+.ctsi-login .form-control {
+    border: none;
+    opacity: 1 !important;
+}
+
+.loginbtn {
+    background: #0494b8 !important;
+    border: 1px solid #0494b8 !important;
+    border-radius: 10px;
+}
+
+.img-sm {
+    height: 30px;
+    float: right;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+
+.text-power {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 765px) {
+    .ctsi-login .left-side {
+        border: none;
+        padding: 10px;
+    }
+
+    .login-section {
+        flex-direction: column
+    }
+}
+
+.ctsi-login .form-control:focus {
+    border: none !important;
+    box-shadow: unset
+}
+
+.ctsi-login input.form-control {
+    background-clip: inherit;
+}
+
+.showpwd {
+    border-radius: 0 5px 5px 0
+}
+
+img.popup-img {
+    width: 100px;
+}
+
+.b-1 {
+    border: 1px solid #ddd
+}
+
+.b-r-3 {
+    border-radius: 20px;
+}
+
+.popup-section a.btn-primary {
+    color: #fff !important
+}
+
+.place-logo {
+    position: relative;
+}
+
+.fixed-width {
+    width: 240px
+}
+
+.width-300 {
+    max-width: 300px;
+}
+
+.processing-sec {
+    position: relative;
+    font-weight: 600;
+    font-size: 3em;
+    color: #fff;
+}
+
+    .processing-sec .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+    }
+
+    .processing-sec .content-alt {
+        display: inline-block;
+        line-height: 1em;
+        transform-origin: 0 0;
+    }
