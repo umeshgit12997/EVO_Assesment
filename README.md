@@ -49,5 +49,6 @@ Steps To Run the application:
    - For API Service Project connection string is mentined in appsettings.json file as below:
      "DBConnectionString": "Server=ctsi-oss-poc-postgre-4-instance-1.c2lbgcafemrx.us-east-1.rds.amazonaws.com;Port=5432;Database=TestApp;User ID=postgres;Password=*********;"
 	 
-3. No authentication or authorization is required.
+4. No authentication or authorization is required.
+5. After addition/deletion you need to click on 'Show Updated List' button to get latest data.
 
