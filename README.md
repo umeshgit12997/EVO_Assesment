@@ -3,7 +3,7 @@ EVO_Assesment
 
 API Service:
 
-* 'EVO_WebAPI' is a Web API solution created in ASP.Net Core.
+* 'EVO_WebAPI' is a Web API solution (with same folder name)created in ASP.Net Core 3.1.
   - Dependancy injection is implemented.
   
 * Sample API Calls:
@@ -33,7 +33,7 @@ Database:
 
 Application:
 
-* 'EVO_WebAPP' is a web application solution created in ASp.Net MVC.
+* 'EVO_WebAPP' is a web application solution (with same folder name)created in ASp.Net MVC5.
 
 -------------------------------------------------------------------------
 
