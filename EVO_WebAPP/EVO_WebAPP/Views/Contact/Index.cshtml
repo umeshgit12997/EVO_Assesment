@@ -56,8 +56,6 @@
                                     <input type="button" id="btnShow" class="btn btn-primary " value="Show Updated List">
                                 </div>
                             </div>
-                            @*<div class="col-4 col-md-4">
-                            </div>*@
                             <br /><br />
                         </div>
                         <br /><br />
@@ -66,7 +64,6 @@
                                 <div class="form-outline">
                                     <label class="form-label" for="form1">Id To Delete: </label>
                                     <input type="text" id="deleteId" class="form-control" />
-                                    @*<input type="button" id="btnDel" class="btn btn-primary " value="Delete Contact">*@
                                 </div>
                             </div>
                             <div class="col-6 col-md-6">
@@ -152,7 +149,6 @@
     <script>
 
         $(document).ready(function () {
-            //datatable(10);
         });
 
         $('#btnAdd').click(function () {
@@ -171,7 +167,6 @@
 
                 $.ajax({
                     type: "Post",
-                    //url: "/ContactDetails/Contact/AddContact",
                     url: "/Contact/AddContact",
                     data: {
                         contact: contactData,
@@ -179,7 +174,6 @@
                     datatype: 'html',
                     success: function (data) {
                         toastr.success("Successfully Added...");
-                        /*updateChildData(columnData);*/                        
                     }
                 });               
             } else {
@@ -239,8 +233,7 @@
                 toastr.warning("File format is not supported.");
             }
         });
-
-        btnDel
+        
         /*function datatable(length) {
             return $('#SubListItemTable').DataTable({
                 retrieve: true,

@@ -76,8 +76,6 @@ namespace EVO_WebAPP.Controllers
         public async Task<bool> DeleteContact(int id)
         {
             return await contactService.DeleteContact(id);
-
-            //return RedirectToAction("Index");
         }
 
         /*

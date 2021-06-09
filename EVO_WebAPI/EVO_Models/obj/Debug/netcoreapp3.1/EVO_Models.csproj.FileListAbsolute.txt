@@ -15,3 +15,4 @@ C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.csproj.CoreCompileInputs.cache
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.dll
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.pdb
+C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.csprojAssemblyReference.cache
