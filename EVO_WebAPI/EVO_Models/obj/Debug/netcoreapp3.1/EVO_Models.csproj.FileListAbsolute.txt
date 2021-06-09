@@ -10,7 +10,6 @@ C:\AllOther\Study and Trainings\InterviewQuestions\Evolent\EVO_WebAPI\EVO_Models
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\bin\Debug\netcoreapp3.1\EVO_Models.deps.json
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\bin\Debug\netcoreapp3.1\EVO_Models.dll
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\bin\Debug\netcoreapp3.1\EVO_Models.pdb
-C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.csprojAssemblyReference.cache
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.AssemblyInfoInputs.cache
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.AssemblyInfo.cs
 C:\AllOther\Study and Trainings\InterviewQuestions\EVO_Assesment\EVO_WebAPI\EVO_Models\obj\Debug\netcoreapp3.1\EVO_Models.csproj.CoreCompileInputs.cache

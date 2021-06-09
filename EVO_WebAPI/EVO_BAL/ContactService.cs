@@ -17,15 +17,20 @@ namespace EVO_BAL
         }
         public bool AddContact(DTOContact DTOContact)
         {
-            Contact contact = new Contact(DTOContact.FirstName, DTOContact.LastName, DTOContact.Email, DTOContact.PhoneNumber, DTOContact.Status);
+            Contact contact = new Contact(DTOContact.Id, DTOContact.FirstName, DTOContact.LastName, DTOContact.Email, DTOContact.PhoneNumber, DTOContact.Status);
            
             return (this.contactRepository.AddContact(contact) > 0);            
+        }
+
+        public bool DeleteContact(int id)
+        {
+            return (this.contactRepository.DeleteContact(id) > 0);
         }
 
         public List<DTOContact> GetContacts()
         {
             return this.contactRepository.GetContacts().Select(item => 
-                    new DTOContact() { FirstName = item.FirstName, LastName = item.LastName, Email = item.Email, PhoneNumber = item.PhoneNumber, Status = item.Status})
+                    new DTOContact() { Id = item.Id, FirstName = item.FirstName, LastName = item.LastName, Email = item.Email, PhoneNumber = item.PhoneNumber, Status = item.Status})
                     .ToList();            
         }
     }

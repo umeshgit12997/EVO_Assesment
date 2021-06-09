@@ -9,6 +9,8 @@ namespace EVO_BAL.Interfaces
     {
         public bool AddContact(DTOContact DTOContact);
 
+        public bool DeleteContact(int id);
+
         public List<DTOContact> GetContacts();
     }
 }

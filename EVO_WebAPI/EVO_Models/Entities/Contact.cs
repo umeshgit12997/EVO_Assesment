@@ -4,10 +4,11 @@ namespace EVO_Models.Entities
 {
     public class Contact : DTOContact
     {        
-        public Contact(string FirstName, string LastName, string Email, string PhoneNumber, string Status)
+        public Contact(int id, string firstName, string lastName, string Email, string PhoneNumber, string Status)
         {
-            this.FirstName = FirstName;
-            this.LastName = LastName;
+            this.Id = id;
+            this.FirstName = firstName;
+            this.LastName = lastName;
             this.Email = Email;
             this.PhoneNumber = PhoneNumber;
             this.Status = Status;

@@ -9,6 +9,8 @@ namespace EVO_DAL.Repository.Interfaces
     {
         public int AddContact(Contact contact);
 
+        public int DeleteContact(int id);
+
         public List<Contact> GetContacts();
     }
 }

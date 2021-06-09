@@ -34,17 +34,18 @@ namespace EVO_WebAPP.Controllers
 
         // POST: Contact/Create
         [HttpPost]
-        public async Task<ActionResult> AddContact(Contact contact)
+        public async Task<bool> AddContact(Contact contact)
         {
             try
             {
                 // TODO: Add insert logic here                
-                await contactService.AddContact(contact);
-                return RedirectToAction("Index");
+                return await contactService.AddContact(contact);
+                //return RedirectToAction("Index");
+                //return View();
             }
             catch
             {
-                return View();
+                return false;
             }
         }
 
@@ -69,14 +70,17 @@ namespace EVO_WebAPP.Controllers
             {
                 return View();
             }
-        }
+        }*/
 
         // GET: Contact/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<bool> DeleteContact(int id)
         {
-            return View();
+            return await contactService.DeleteContact(id);
+
+            //return RedirectToAction("Index");
         }
 
+        /*
         // POST: Contact/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)

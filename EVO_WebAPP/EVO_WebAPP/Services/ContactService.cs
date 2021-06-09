@@ -32,6 +32,12 @@ namespace EVO_WebAPP.Services
             return await response.Content.ReadAsAsync<bool>();
         }
 
+        public async Task<bool> DeleteContact(int id)
+        {
+            HttpResponseMessage response = evoService.DeleteResponse(string.Format("Contact/delete_contact/{0}", id));
+            return await response.Content.ReadAsAsync<bool>();
+        }
+
         public async Task<List<Contact>> GetContacts()
         {
             HttpResponseMessage response = evoService.GetResponse("Contact/contact_list");

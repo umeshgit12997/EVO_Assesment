@@ -42,9 +42,10 @@ namespace EVO_WebAPI.Controllers
         }
 
         // DELETE api/<ContactController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("delete_contact/{id}")]
+        public ActionResult<bool> DeleteContact(int id)
         {
+            return contactService.DeleteContact(id);
         }
     }
 }
