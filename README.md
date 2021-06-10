@@ -27,7 +27,9 @@ Database:
 
 * Database will get created automatically with code first approach.
 * Database is postgreSQl DB
-* Database is present on AWS RDS.
+* Database is present on AWS RDS. 
+  It is publically accessible. 
+  No need to create seperate DB or modify connection string.
 
 -------------------------------------------------------------------------
 
@@ -40,6 +42,7 @@ Application:
 Steps To Run the application:
 
 1. Run the service application 'EVO_WebAPI'
+   (Please note, no need to create seperate DB or modify connection string)
 2. Then run the client application.
 3. Conntection string and API URLs are already configured.
 
